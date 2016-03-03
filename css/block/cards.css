@@ -1,0 +1,23 @@
+.card {
+   background-color: #EBEF40;
+   padding: 16px;
+   display: inline-block;
+   box-sizing: border-box;
+   width: 25%;
+}
+
+.card_colorFirst {
+   background-color: #45AAEE;
+}
+
+.card_colorSecond {
+   background-color: #FF1010;
+}
+
+.card_colorThrid {
+   background-color: #76EF40;
+}
+
+.card_colorFourth {
+   background-color: #EBEF40;
+}
