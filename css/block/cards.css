@@ -28,7 +28,7 @@
    left: -10px;
 }
 
-.card-colors {
+.card-options {
    width: 32px;
    height: 32px;
    box-sizing: border-box;
@@ -37,6 +37,12 @@
    text-indent: -9999px;
    overflow: hidden;
    display: inline-block;
+}
+.card_delete {
+   background-image: url('../../images/delete.png');
+   background-size: 30px;
+   background-repeat: no-repeat;
+   background-position: center;
 }
 
 .card-colors.isActive {

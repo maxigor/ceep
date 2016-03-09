@@ -1,12 +1,12 @@
 var $cards = document.querySelectorAll('.card');
-var $cardColors = document.querySelectorAll('.card-colors');
+var $cardColors = document.querySelectorAll('.card-options');
 
 for (var i = 0; i < $cards.length; i++) {
    $cards[i].addEventListener('click', function(event){
       var $this = event.target;
+      var $card = this;
 
-      if ($this.classList.contains('card-colors')) {
-         var $card = this;
+      if ($this.dataset.color) {
 
          $card.dataset.color = $this.dataset.color;
 
@@ -16,6 +16,8 @@ for (var i = 0; i < $cards.length; i++) {
 
          $this.classList.add('isActive');
       };
-
+      if($this.classList.contains('card_delete')){
+         $card.remove();
+      }
    });
 };
