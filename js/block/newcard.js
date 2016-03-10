@@ -26,7 +26,13 @@ $newCard.addEventListener('submit', function(event){
       };
 
    } else {
+      var $wrapCard =  document.querySelector('.wrap-card');
+      var $card = document.querySelector('.card');
+      var $copyCard = $card.cloneNode(true);
 
-   }
+      $copyCard.querySelector('.card-content').textContent = $newCardContent.value;
+
+      $wrapCard.insertBefore($copyCard , $card);
+   };
 
 });
