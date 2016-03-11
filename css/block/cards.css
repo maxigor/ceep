@@ -2,6 +2,7 @@
    padding: 16px;
    display: inline-block;
    box-sizing: border-box;
+   border-radius: 3%;
    width: 25%;
    position: relative;
 }
@@ -50,17 +51,17 @@
 }
 
 [data-color="first"] {
-   background-color: #45AAEE;
+   background-color: #47b8e0;
 }
 
 [data-color="second"] {
-   background-color: #FF1010;
+   background-color: #ff7473;
 }
 
 [data-color="third"] {
-   background-color: #76EF40;
+   background-color: #60c5ba;
 }
 
 [data-color="fourth"] {
-   background-color: #EBEF40;
+   background-color: #feee7d;
 }

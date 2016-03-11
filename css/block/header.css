@@ -1,5 +1,5 @@
 .header {
-   background-color: #0082C7;
+   background-color: #47b8e0;
    height: 40px;
    padding-top: 8px;
    padding-bottom: 8px;
@@ -16,7 +16,7 @@
 }
 
 .header-button {
-   background-color: #006195;
+   background-color: #282c37;
    font-size: 16px;
    color: #FFF;
    box-sizing: content-box;
